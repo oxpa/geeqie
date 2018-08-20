@@ -10,7 +10,7 @@ release Changelog.
 Coders should respect general coding style (see CODING).
 
 Coders, please resync po/POTFILES.in if you add or remove source files from src/
-directory (using regen_potfiles.sh script in po/) and re-run make update-po when
+directory (using regen_potfiles.sh script in po/) and re-run intltool-update when
 appropriate to keep translations in sync with the code.
 
 Maintainers, don't forget to run make update-po before releases.
